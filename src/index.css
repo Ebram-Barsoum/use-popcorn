@@ -1,0 +1,89 @@
+body{
+   background: #123;
+}
+
+img{
+  width: 60px;
+  height: 80px;
+  object-fit: cover;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
+.height-90{
+  height: 92% !important;
+}
+
+.movies-list,
+.watched-list{
+  background: #234;
+  max-height: 100% !important;
+  height: 100% !important;
+}
+
+.movies-list::-webkit-scrollbar-track,
+.watched-list::-webkit-scrollbar-track,
+.details::-webkit-scrollbar-track {
+  background-color: #f1f1f1; 
+}
+
+.movies-list::-webkit-scrollbar-thumb,
+.watched-list::-webkit-scrollbar-thumb,
+.details::-webkit-scrollbar-thumb {
+  background-color: #456;
+
+}
+
+.movies-list::-webkit-scrollbar,
+.watched-list::-webkit-scrollbar,
+.details::-webkit-scrollbar {
+  width: 5px; 
+}
+
+.movie:hover{
+  background-color: #456;
+}
+.toggle-icon{
+  height: 25px !important;
+  width: 25px !important;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  top:5px;
+  right:15px;
+
+  z-index: 4;
+}
+
+.border-bottom{
+  border-bottom: 1px solid #cccccc6a !important;
+  
+}
+
+.transition-5{
+   transition: .5s;
+   -webkit-transition: .5s;
+   -moz-transition: .5s;
+   -ms-transition: .5s;
+   -o-transition: .5s;
+}
+
+.arrow-icon{
+  height: 30px;
+  width: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  top:5px;
+  left:15px;
+
+  z-index: 2;
+}
